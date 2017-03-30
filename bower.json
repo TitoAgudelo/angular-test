@@ -1,0 +1,13 @@
+{
+  "name": "test",
+  "description": "test angular js",
+  "main": "",
+  "authors": [
+    "Tito Agudelo"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "angular": "^1.6.3"
+  }
+}

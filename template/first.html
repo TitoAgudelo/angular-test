@@ -1,0 +1,12 @@
+<div ng-controller="myCtrl">
+	<input type="text" name="" ng-model="username">
+	<button ng-click="getRepo()">Submit</button>
+	<hr>
+	<div>
+		<ul>
+			<li ng-repeat="repo in listRepo">
+				{{repo.name}}
+			</li>
+		</ul>
+	</div>
+</div>
